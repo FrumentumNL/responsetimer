@@ -1,0 +1,11 @@
+{
+  "name": "responsetimer",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "repository": "https://github.com/FrumentumNL/responsetimer.git",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/index.js"
+  }
+}
