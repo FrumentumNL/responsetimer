@@ -16,6 +16,7 @@ METRIC_ID=
 # The URL to monitor
 TARGET_URL=https://frumentum.nl
 # The interval in seconds to check the URL, defaults to 60
+# Set to 0 to only check once
 INTERVAL=60
 # The number of times to check the URL before conducting the final measurement, defaults to 5
 # see the section below for further explanation
