@@ -18,13 +18,6 @@ TARGET_URL=https://frumentum.nl
 # The interval in seconds to check the URL, defaults to 60
 # Set to 0 to only check once
 INTERVAL=60
-# The number of times to check the URL before conducting the final measurement, defaults to 5
-# see the section below for further explanation
-WARMUP_COUNT=5
+# responsetimer uses the median response time of X requests
+REQ_COUNT=5
 ```
-
-> [!NOTE]
-> responsetimer sends a few requests to the URL before conducting the final measurement.
-> This is done to ensure actions like DNS lookups do not affect the actual response time.
-> The number of requests is determined by the `WARMUP_COUNT` environment variable, and can be set to `0` to completely
-> disable the warmup feature.
